@@ -102,7 +102,9 @@ input_dict = {
     "Product_ID": "P123",
     "Product_Type": "A",
     "Shift": "Night",
-    "Operator_Experience_Level": "Intermediate"
+    "Operator_Experience_Level":
+"Intermediate",
+"Machine_usage_hour": 15
 }
 
 # Encode input
