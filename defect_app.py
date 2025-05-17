@@ -5,8 +5,8 @@ import joblib
 app = Flask(__name__)
 
 # Load model and encoders
-model = joblib.load('defect_regressor.pkl')
-label_encoders = joblib.load('label_encoders.pkl')
+model = joblib.load('./models/defect_regressor.pkl')
+label_encoders = joblib.load('./models/label_encoders.pkl')
 
 @app.route('/')
 def index():
